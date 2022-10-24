@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</link>
+<style>
+	body{
+
+		padding: 25px;
+		background-color: white;
+		color: black;
+		font-size: 20px;
+	}
+	.dark-mode{
+	background-color: black;
+		color: white;
+
+	}
+	button{
+		cursor: pointer;
+	}
+</style>
+</head>
+<body>
+<button onclick="myFunction()">Toggle dark mode </button>
+<script>
+function myFunction(){
+	let element = document.body;
+	element.classList.toggle("dark-mode"); 
+}
+	</script>
+
+	<div class="page"/>
+
+	
+	    <div class="headerpart">
+	    </div>
+	    
+	    <div class="link">
+	    	<center>
+	    	<a href="home.html">Home</a>&nbsp;&nbsp;&nbsp;
+	    	<a href="About.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    	
+	    	<a href="Course.html">Course</a>&nbsp;&nbsp;&nbsp;
+
+	    	<a href="inf.html">Infranstructure</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    	<a href="form.html">Regristritation Form</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    	<a href="activities.html">Activities</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	    	<a href="training.html">Taining</a>&nbsp;&nbsp;
+	    </center>
+	    </div>
+	    <div class="bodypart">
+	    </div>
+	    <div class="imgpart">
+	    	<img src="g.gif">
+	    </div>
+<div class="newspart">
+	<center>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="information">
+              <span><i class="fa fa-calendar-o"></i>&nbsp; Tuesday 19th of July 2022 </span>&nbsp;&nbsp;&nbsp;&nbsp;
+              <span><i class="fa fa-clock-o"></i>&nbsp;<span id="timer"></span></span>
+            </div>
+<script>
+    setInterval(function() {
+    var currentTime = n Date ( );    
+    var currentHours = currentTime.getHours ( );   
+    var currentMinutes = currentTime.getMinutes ( );   
+    var currentSeconds = currentTime.getSeconds ( );
+    currentMinutes = ( currentMinutes < 10 ? "0" : "" ) + currentMinutes;   
+    currentSeconds = ( currentSeconds < 10 ? "0" : "" ) + currentSeconds;    
+    var timeOfDay = ( currentHours < 12 ) ? "AM" : "PM";    
+    currentHours = ( currentHours > 12 ) ? currentHours - 12 : currentHours;    
+    currentHours = ( currentHours == 0 ) ? 12 : currentHours;    
+    var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
+    document.getElementById("timer").innerHTML = currentTimeString;
+}, 1000);
+</script><h2>Mahalaxmi Polytechnic Institute</h2></center>
+	<marquee direction="right">
+		<p>Mahalaxmi polytechnic Institute is the best college of Diploma in information technology(IT) in nepal.</marquee>
+	<center><B><h3>principal</h3></B></center></p>
+		
+		<center><img src="gg.jpg"></center>
+		<p>
+           <br>
+           <br><b>   Welcome to Mahalaxmi polytechnic institute, lalitpur, Nepal, a Institute deeply committed to the mission of inspiring each student a passion for learning, the confidence and competence to pursue their dreams and the commitment to serve as a compassionate global citizen who is a steward of the environment.<br>
+            </p></b>
+
+
+	
+</div>
+<footer>
+	<p>
+          <b>    Mahalaxmi polytechnic  is committed to academic excellence. The institute is dedicated to maintain the academic environment with the help of outstanding faculty engaged in the task of creative sensibility, or sense of responsibility and moral integrity.
+            We believe that children today are responsible for citizens of tomorrow. However, the nourishment of these buds cannot blossom unless and until they get excellent academic environment which will enable them become acquainted with the nation and their society and family. Mahalaxmi is committed to create homely but disciplined environment so that children may become aware of their own future.<br>
+            </p></footer></b>
+
+</body>
+</html>
